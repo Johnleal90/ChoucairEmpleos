@@ -9,8 +9,12 @@ Proyecto de Automatización de la sección de empleos de la página ChoucairTest
 - JUnit
 
 # Ejecutar pruebas
-## windows
-´´´gradle.bat test´´´
+## Windows
+```java
+gradle.bat test
+```
 
 ## Linux
-´´´./gradlew test´´´
+```java
+./gradlew test
+```
