@@ -27,6 +27,8 @@ public class MagnetoVacantesPage {
     private List<WebElement> titulosVacantes;
     @FindBy(how = How.LINK_TEXT,using = "Ver oferta completa")
     private List<WebElement> verOfertas;
+    @FindBy(how = How.LINK_TEXT,using = "Aplicar a esta oferta")
+    private List<WebElement> aplicarOferta;
 
 
     public String obtenerPrimerTitulo(){
@@ -48,5 +50,9 @@ public class MagnetoVacantesPage {
 
     public void clickVerOferta(int pos){
         verOfertas.get(pos).click();
+    }
+
+    public void clickAplicarOferta(int pos){
+        aplicarOferta.get(pos).click();
     }
 }

@@ -21,8 +21,7 @@ public class Hooks {
     @Before
     public void beforeScenario(){
         WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-        setDriver(driver);
+        setDriver(new ChromeDriver());
         getDriver().manage().window().maximize();
 
         getDriver().get(urlBase);
