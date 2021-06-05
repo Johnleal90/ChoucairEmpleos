@@ -56,7 +56,7 @@ gradle.bat clean test
 
 # Reportes
 Después de ejecutada la prueba  se puede ver el reporte de cucumber haciendo click en el link que se muestra en consola, por ejemplo:
-
+```
 ┌──────────────────────────────────────────────────────────────────────────┐
 │ View your Cucumber Report at:                                            │
 │ *https://reports.cucumber.io/reports/17574188-87a3-480c-8491-4975a38dbbde* │
@@ -66,6 +66,7 @@ Después de ejecutada la prueba  se puede ver el reporte de cucumber haciendo cl
 
 Process finished with exit code 0
 └──────────────────────────────────────────────────────────────────────────┘
+```
 
 # Referencias 
 
